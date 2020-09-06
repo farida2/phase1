@@ -1,0 +1,11 @@
+package staticDemo;
+
+public class Demo {
+	public static void main(String[] args) {
+		hey();
+	}
+	public static void hey() {
+		System.out.println("Hi static method");
+	}
+
+}

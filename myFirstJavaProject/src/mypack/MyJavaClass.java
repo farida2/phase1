@@ -1,0 +1,60 @@
+/*
+ * Farida Belhous 
+ * phase1 - live classes
+ * Type casting
+ */
+
+
+package mypack;
+
+public class MyJavaClass {
+	public static void main(String[] args) {
+	// Printing out a text to the console
+	System.out.print("Hello World!!");
+	
+	// Blank line
+	System.out.println();
+	
+	/*
+	 *  Multi-lines comments
+	 *  
+	 */
+	
+	
+	// printing out some primitive type variables
+	char a = 'x';
+	int x = 100;
+	float float1 = 99.9f;
+	double double1 = 22.34d;
+	
+	System.out.println("The char a = " + a);
+	System.out.println("The int x = " + x);
+	System.out.println("The float numberfloat1 = " + float1);
+	System.out.println("The double number double1 = " + double1);
+	
+	/*
+	 *  Type casting
+	 *  
+	 */
+	float m = x;  // implicit casting (widening  casting)-smaller to larger
+	System.out.println("The implicit casting from int x = "+ x +" to float is m = " + m);
+	
+	double r = 78.456;
+	int h = (int)r; // explicit casting (narrowing casting)-larger to smaller
+	
+	System.out.println("The explicit casting from double r = "+ r +" to int is h = " + h); 
+	
+	char c ='a';
+	int s = c;  // implicit casting (widening casting)-smaller to larger
+	System.out.println("The implicit casting from char c = "+ c +" to int is s = " + s);
+	
+	s = 65;
+	c = (char)s ; // explicit casting (narrowing  casting)-larger to smaller
+	System.out.println("The explicit casting from int s = "+ s +" to char is c = " + c);
+	
+
+	
+	}
+	
+
+}

@@ -1,0 +1,28 @@
+package mypack;
+
+public class MyJavaClass {
+	public static void main(String[] args) {
+	System.out.print("Hello World!!");	
+	System.out.println();
+	/*
+	 * 
+	 */
+	
+	float f1 = 99.9f;
+	System.out.println("f1 = " + f1);
+	double d1 = 22.34d;
+	System.out.println("d1 = " + d1);
+	
+	/*
+	 *  Type casting
+	 *  
+	 */
+	
+	
+	
+	
+	
+	}
+	
+
+}
